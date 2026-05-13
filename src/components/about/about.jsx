@@ -4,7 +4,24 @@ import './about.css'
 function About() {
     return (
         <section className="about">
-           <h2>How I Think</h2>
+            <div className="about-col">
+                <h2>How I Think</h2>
+                <p>I'm a third-year computer science student at Yale University with a curiosity for how systems work and a love for the puzzle-solving nature of CS. 
+                    I enjoy thinking through problems carefully — exploring different approaches and theorizing possible solutions before diving in.
+                    I'm currently exploring different areas in Computer Science, while still diving deep in my areas of interest.</p>
+                <p>As a SWE Intern I've built website templates for clients across various industries, gaining hands-on experience with frontend frameworks and modern design principles.
+                    As an Undergraduate Learning Assistant for Data Structures, I've had the opportunitiy to mentor students through office hours and discussion sections, helping them grasp new concepts, visualize problems, and debug code.
+                    In both roles, I've developed strong communication skills and a passion for sharing knowledge, which I hope to continue cultivating in future opportunities.   
+                </p>
+            </div>
+            <div className="about-col">
+                <h2>Quick Facts</h2>
+                <ul>
+                    <li>From the Bay Area, California</li>
+                    <li>Enjoys hiking, cooking, and traveling</li>
+                    <li>Fluent in English and Spanish</li>
+                </ul>
+            </div>
         </section>
     )
 }
