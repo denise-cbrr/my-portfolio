@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  gap: 4rem;
+  gap: 2rem;
   /* border-radius: 30px; */
   
 }
@@ -17,5 +17,10 @@
   flex-direction: column;
   gap: 24px;
   max-width: 60%;
+}
 
+.about-col + .about-col {
+  border-left: 1px solid var(--border);
+  padding: 0rem 2rem;
+  margin-left: 2rem;
 }

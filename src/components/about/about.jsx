@@ -17,9 +17,13 @@ function About() {
             <div className="about-col">
                 <h2>Quick Facts</h2>
                 <ul>
-                    <li>From the Bay Area, California</li>
-                    <li>Enjoys hiking, cooking, and traveling</li>
-                    <li>Fluent in English and Spanish</li>
+                    <li>From Wai'anae, Hawai'i</li>
+                    <li>Lang Exp: C, Python, Racket</li>
+                    <li>Tech Exp: HTML, CSS, React, Angular</li>
+                    <li>Currently Learning: C++, Javascript</li>
+                    <li>Interested In: SWE, Robotics, Systems, Machine Learning</li>
+                    <li>Goals: Build more projects!</li>
+                    <li>Other Hobbies: Photography, Music, Reading</li>
                 </ul>
             </div>
         </section>
